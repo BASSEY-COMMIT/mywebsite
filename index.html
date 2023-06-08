@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Personal Portfolio Design</title>
+    <script src="https://kit.fontawesome.com/ae360af17e.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="image.png" sizes="16x19">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="portfolio-container">
+            <div class="portfolio-row header-wrap">
+                <div class="brand-name">
+                    <a href="#" class="logo">Queen Bassey</a>
+                </div>
+                <div class="hamburger">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="portfolio-navbar">
+                    <ul>
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Resume</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="slide-carousel">
+        <div class="slider">
+            <div class="portfolio-container">
+                <div class="slider-content">
+                    <div class="slider-general">
+                        <span class="welcome-msg">
+                            Welcome! Hello World!!
+                        </span>
+                        <div class="welcome-text">
+                            <h1>
+                                Hi, I am
+                            </h1>
+                            <div class="text-wrap">
+                                <h2 class="main-title">Queen Bassey</h2>
+                                <h2 class="hover-title">Queen Bassey</h2>
+                            </div>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                At distinctio quod facilis, tempora sed iure magnam laboriosam rerum laudantium soluta eius quas nesciunt deserunt, nulla sequi. 
+                                Consequuntur provident corrupti dolores?
+                            </p>
+                            <div class="download-resume">
+                                <a href="file:///C:/Users/GOD'SCOVENANT/Music/" target="_blank">
+                                    Download SONG
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-image">
+                        <div class="welcome-image">
+                            <img src="image.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="portfolio-container">
+            <div class="text-wrap">
+                <h2 class="main-title">Stay Connected.</h2>
+                <h2 class="hover-title">Stay Connected.</h2>
+            </div>
+            <div class="contact-info">
+                <span>
+                    15 Udo Umana Street, Uyo.Nigeria
+                </span>
+                <h3>paulharison42@gmail.com</h3>
+                <a href="#">
+                    +234 (0) 8038750988
+                </a>
+            </div>
+            <div class="social-link">
+                <ul>
+                    <li>
+                        <a href="#">Facebook</a>
+                    </li>
+                    <li>
+                        <a href="#">Twitter</a>
+                    </li>
+                    <li>
+                        <a href="#">Instagram</a>
+                    </li>
+                    <li>
+                        <a href="#">LinkedIn</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <script>
+        const hamburger = document.querySelector(".hamburger");
+        hamburger.addEventListener("click", function() {
+            document.querySelector(".portfolio-navbar").classList.toggle("show");
+        })
+    </script>
+</body>
+
+</html>
